@@ -17,5 +17,6 @@ You can modify these credentials in the docker-compose.yml file if needed.
 python3 -m venv .venv
 . .venv/bin/activate
 !pip install pymongo
+!pip install psycopg2
 pip freeze > requirements.txt
 ```
